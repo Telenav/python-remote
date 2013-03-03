@@ -1,0 +1,9 @@
+ @v2.0.4 removed pw_used after a sucessfull login and instead set pswd to 
+    shorten re-login and free some memory.
+ @v2.0.3 added __repr__ amd blocked __str__ from pxepect
+ @v2.0.2 added introspection hooks to make objects pretty 
+ @v2.0.1 fixed bug with having a private key configured in users shell, 
+    but not configured in remote causing failed password logins 
+ @v2.0.0 improved support to run stacks of commands, including instance of Cmd 
+ @v1.1.1 added timeout to run() and getoutput()
+ @v1.1.1 improved error prevention in run() 
