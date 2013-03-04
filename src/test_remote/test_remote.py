@@ -2,6 +2,9 @@
 #
 #unit test module for remote.py
 #
+#Copyright (c) 2012, Telenav, Inc. All rights reserved. See accompanying LICESE
+#
+#
 # Author: Andreww
 # Version: 1.0.0
 
