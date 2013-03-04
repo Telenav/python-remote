@@ -1,0 +1,15 @@
+*dirty.py
+*.pyc
+*.pyo
+*.egg-info
+.installed.cfg
+.project
+.pydevproject
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+
