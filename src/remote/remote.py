@@ -54,7 +54,7 @@ class remote(pxssh):
         self.__output = {}
         self.DEBUG = debug
     def __repr__(self):
-        return u"<%s %s@%s [A:%s]>" %(self.__class__, self.user, self.host, self.isalive())
+        return u"<%s@%s [A:%s]>" %(self.user, self.host, self.isalive())
     #pStr = __str__
     __str__ = __repr__
     __unicode__ = __repr__
